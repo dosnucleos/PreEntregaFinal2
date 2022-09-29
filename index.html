@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Libreria ReCirculaR</title>
+</head>
+<body>
+
+  <header class="headerCenter">
+    <img src="img/recicular.png" alt="" class="center">
+  </header>
+    <h1 class="container"> Somos una librería de libros usados</h1>
+
+    <p class="container"> Tal vez no haya mucho más: el placer de rescatar libros que ya no se leían y encontrarle nuevos lectores, recomendar una obra maestra (y que es una forma de contagiar la alegría, el placer), ojear un libro al azar y encontrar una nota, un boleto de colectivo, una foto, una flor, o escuchar las historias no solo de los libros sino de los dueñs, que es también compartir una pasión, hablar el mismo idioma. En fin, nos dedicamos a la compra y venta de libros usados, y lo hacemos con placer. Pocas cosas nos gustan más que vender un Onetti, Faulkner, Borges, Scorza, Celine, Conti, Marechal, y tantos, miles más.
+      Es eso.</p>
+
+    <div class="row contender" id="contenedorLibros"> </div>
+
+    
+
+
+    <!-- Off Canva -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <img src="img/recicular.png" alt="">
+          <br>
+          <!-- <h5 class="offcanvas-title" id="offcanvasRightLabel">Libreria ReCircular</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p> Excelente elección! Confirmá tu compra y comenzá a disfrutar del placer de la lectura. </p> <div class="row py-3" id="contenedorCarrito"></div>
+          <div class="container-fluid py-2"> 
+            <div class="row">
+              <button class="btn btn-warning" id="vaciarCarrito"> Vaciar Carrito</button>
+            </div>
+          </div>
+          
+          <div class="container-fluid py-3">
+            <div class="row">
+              <h2> Total Compra: $  <span id="totalCompra"> 0 </span></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- End Off Canva -->
+
+      <div class="containder-fluid py-3">
+        <div class="row">
+          <button class="btn btn-success" type="button"  id="verCarrito" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Ver Carrito</button>
+          
+        </div>
+        
+      </div>
+
+
+    
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="styles.css"></script>
+    <script src="libreria.js"></script>
+</body>
+</html>

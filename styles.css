@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;700&family=Montserrat:wght@400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    ;}
+
+html {font: 62,5%;}
+
+.headerCenter{
+    display: flex;
+    background-color:aquamarine;
+    justify-content: center;
+
+}
+
+.contender{
+    width: 99%;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    color: #f76806;
+    font-weight: 500;
+}
+
+h2{
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.6 rem;
+    color: black;
+}
+
+h3{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.2rem;
+    color: blueviolet;
+}
+
+h4{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 0.9rem;
+    color: rgb(0, 58, 7);
+}
+
+p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.2 rem;
+    color: black;
+}
+
+#tituloPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
+#contenedorLibros{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap; 
+}
+
+div {
+    padding: 0.3rem;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+#formulario{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#verBiblioteca {
+    display: flex;
+    
+    width: 100%;
+    
+    
+}
